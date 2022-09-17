@@ -1,0 +1,936 @@
+*{
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: Bogle,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#nav-bar {
+    width: inherit;
+    background-color: rgb(34, 111, 253);
+    
+    border-bottom: 1px solid white;
+    
+    
+}
+
+
+.nav-bar-icons {
+    padding-top: 20px;
+    border-radius: 100px;
+    
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+
+.hover-oval span {
+    font-weight: 700;
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+
+
+#search form{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.search-option {
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    width: 650px;
+}
+
+.search-button {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    margin-left: -35px;
+    border: none;
+}
+
+#search {
+    padding: 30px;
+    width: 500px;
+}
+
+.nav-right-container{
+    
+    height: 50px;
+    
+    border-radius: 100px;
+    color: white;
+    
+    width: 120px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    
+   
+}
+
+#nav-bar .nav-bar-icons:hover {
+    background-color: rgba(15, 15, 15, 0.5);
+}
+
+.icon {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.hover-oval {
+    
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 2px;
+    
+    
+}
+
+#walmart {
+    border-radius: 100px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right-icon-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.cart {
+    border-radius: 100px;
+    
+    width: 50px;
+    height: 40px;
+    margin-top: 28px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.cart i {
+    margin-top: 12px;
+    color: white;
+
+}
+
+.cart:hover {
+    background-color: rgba(15, 15, 15, 0.5);
+}
+
+#nav-bar .nav-right-container:hover {
+    background-color: rgba(15, 15, 15, 0.5);
+   
+}
+
+#nav-bottom {
+    width: 100%;
+    background-color: rgb(34, 111, 253);
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.nav-bottom-left {
+    width: 40%;
+    margin-left: -27px;
+    
+}
+
+.left-text-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.left-text-nav span {
+    margin-top: 10px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.left-text-nav img {
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+    padding-left: 10px;
+}
+
+.right-text-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.nav-bottom-right {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bottom-right span {
+
+    font-size: small;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+
+.nav-bottom-right span a {
+    color: white;
+    text-decoration: none;
+}
+
+.right-text-nav span a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    
+}
+
+.main-container {
+    width: 95%;
+    height: 500px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.slider-container {
+    width: 62.25%;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+    margin-right: 15px;
+    background-image: url(https://i5.walmartimages.com/dfw/4ff9c6c9-cbe4/k2-_98313332-39d1-4064-a0a4-aa2a75205251.v1.jpg?odnHeight=470&odnWidth=1232&odnBg=&odnDynImageQuality=70);
+    background-size: 1080px;
+    background-position: center;
+    
+    
+    
+}
+
+
+.slider-text img {
+    width: 100%;
+}
+
+
+.slider-container-1 {
+    width: 62.25%;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+    margin-right: 15px;
+    background-image: url(https://i5.walmartimages.com/dfw/4ff9c6c9-cbe4/k2-_98313332-39d1-4064-a0a4-aa2a75205251.v1.jpg?odnHeight=470&odnWidth=1232&odnBg=&odnDynImageQuality=70);
+    background-size: 1080px;
+    background-position: center;
+    display: none;
+}
+
+
+
+
+.right-main {
+    width: 30%;
+    height: 425px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+    margin-right: 15px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head h4 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: larger;
+}
+
+.head h6 {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    font-size: medium;
+}
+
+.chair-image-small img {
+    width: 50%;
+}
+
+.chair-image-small {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.button {
+    width: 45%;
+    text-align: center;
+}
+
+.options-button {
+    border-radius: 100px;
+    padding: 7px;
+    width: 80px;
+    background-color: rgb(95, 95, 248);
+    color: white;
+    border: none;
+    margin-left: -40px;
+    font-weight: 700;
+}
+
+.right-main-text {
+    margin-top: 20px;
+    width: 70%;
+    position: relative;
+    left: 30px;
+    top: 5px;
+
+}
+
+.right-main-text h5 {
+    margin-top: 10px;
+}
+
+.main-2-container {
+    height: 450px;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.reserve-pick-delivery {
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.Reserve {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popular-Servcies {
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+}
+
+.semi-container1 {
+    width: 30%;
+    
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 8px;
+    margin-left: 7px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+}
+
+.semi-container2 {
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 18px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+}
+
+.semi-container1 img {
+    width: 25%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.images2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.semi-container1 h4 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Bogle,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.semi-container2 h4 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Bogle,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.semi-container2 img {
+    width: 25%;
+}
+
+.reserve-pick-delivery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+.see-button {
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid black;
+    font-weight: 700;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.reserve-pick-delivery h5 {
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 5px;
+    
+}
+
+.popular-services-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 96%;
+
+}
+
+.popular-services-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cta-container {
+    width: 91%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/6088586c89565e66d3750176/1620016559336-LZ27JDVKWDGPVDHCZ6MP/Walmart_COVER.jpg?format=2500w);
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 62%;
+
+    height: 18px;
+
+
+}
+
+.cta-text-img h2{
+    font-size: medium;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.cta-text-img img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 8px;
+
+}
+
+.cta-text-img h2 a{
+    color: white;
+    font-weight: 300;
+}
+
+.section-3-5-14 {
+    width: 95%;
+    height: 450px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.ad-1 {
+    width: 30%;
+    
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+
+    
+    
+}
+
+.ad-2 {
+    width: 30%;
+    
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+
+    
+}
+
+
+.ad-3 {
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(240, 209, 209, 0.3);
+    border: 1px solid lightgray;
+
+    
+}
+
+.down-part {
+    height: 40%;
+    
+}
+
+.image-top {
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.image-top img {
+    height: 98%;
+    width: 100%;
+    
+}
+
+.my-life-as {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Bogle,Helvetica Neue,Helvetica,Arial,sans-serif;
+    align-items: center;
+    height: 50px;
+}
+
+.image-1 {
+    width: 15%;
+    margin-right: 15px;
+    height: 50px;
+    display: flex;
+    
+
+}
+
+.image-1 img {
+    width: 100%;
+    margin-top: -3px;
+}
+
+.button-sponsored {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-life-as h4 {
+    margin-left: 15px;
+}
+
+.button-sponsored {
+    margin-top: 50px;
+}
+
+.shop-now-button-1 {
+    border: 0.5px solid black;
+    border-radius: 100px;
+    width: 105px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.button-sponsored h6 {
+    color: grey;
+    margin-right: 15px;
+}
+
+.text-normal {
+    margin-left: 15px;
+    color: rgb(66, 64, 64);
+}
+
+.Brands-heading {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#walmart img {
+    margin-bottom: 15px;
+}
+
+.slider-text {
+    height: 50%;
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: white;
+}
+
+.slider-container h4 {
+    font-weight: 100;
+}
+
+.slider-button {
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    font-weight: bolder;
+}
+
+.slider-arrow {
+    background-color: transparent;
+    margin-left: 96%;
+    
+}
+
+
+
+
+
+
+
+
+
+.Fall-Essentials-Container {
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Fall-Essentials-Container img {
+    width: 23.5%;
+    height: 70%;
+}
+
+#fall-heading {
+width: 30%;
+margin-left: 70px;
+
+}
+
+.pricing-container {
+    height: 400px;
+    width: 90.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 70px;
+
+}
+
+.pricing-items {
+    width: 16%;
+    border-radius: 10px;
+}
+
+.pricing-image {
+
+}
+
+.Add-Button {
+    width: 80px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: -10px;
+}
+
+.pricing-text h3 {
+    font-weight: bold;
+
+}
+
+.pricing-text h4 {
+    color: grey;
+    font-weight: 100;
+}
+
+.EBT {
+    width: 50%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.EBT-block {
+    width: 27%;
+    height: 20px;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EBT-block h6 {
+    color: white;
+    font-weight: bold;
+}
+
+.EBT-Elible h6 {
+    color: grey;
+}
+
+.footer-1 {
+    height: 150px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.feedback-div {
+    height: 100px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.feedback-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 30px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.footer-2 {
+    height: 190px;
+    background-color: rgb(77, 77, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-list li{
+    list-style: none;
+    color: white;
+}
+
+.final-list {
+    height: 100px;
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: medium;
+
+}
+
+#copyright {
+    height: 40px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#copyright h6 {
+    font-weight: lighter;
+    color: white;
+}
+
+
+#left-move-purpose {
+    position: relative;
+    right: 25px;
+}
+
+.ad-button-div{
+    width: 100%;
+    display: flex;
+}
+
+.home-container {
+    height: 450px;
+    width: 90.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 70px;
+    
+    margin-top: 50px;
+}
+
+.home-items {
+    width: 16%;
+    border-radius: 10px;
+    
+}
+
+.option-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.home-heading {
+    width: 300px;
+    margin-left: 70px;
+}
+
+.home-image {
+    height: 35%;
+    width: 85%;
+    
+}
+
+.home-image img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.home-desc h4{
+    color: grey;
+    font-weight: 100;
+
+}
+
+.stars-home {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+}
+
+.stars-home h6 {
+    margin-top: 3px;
+    margin-left: 2px;
+    color: grey;
+}
+
+.shipping-home {
+    height: 20px;
+    width: 80px;
+    background-color: lightskyblue;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipping-home h6 {
+    color: blue;
+    font-weight: 100
+}
